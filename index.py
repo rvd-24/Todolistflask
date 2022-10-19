@@ -56,5 +56,5 @@ def update(task_id):
         task_obj=TaskList.objects(task_id=task_id).first()
         return render_template('update.html',task=task_obj)
 
-if __name__=="__main__":
-    app.run(debug=True)
+# if __name__=="__main__":
+#     app.run(debug=True)
